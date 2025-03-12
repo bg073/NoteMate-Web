@@ -334,7 +334,8 @@ export default function Home() {
                 <motion.div
                   key={feature.name}
                   initial={{ opacity: 0, y: 20 }}
-                  animate={inView ? { opacity: 1, y: 0 } : {}}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ amount: 0.1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="group"
                 >

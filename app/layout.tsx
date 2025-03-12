@@ -2,6 +2,7 @@ import React from 'react'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Space_Grotesk, Outfit } from 'next/font/google'
+import Footer from './components/Footer'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -25,7 +26,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`scroll-smooth ${spaceGrotesk.variable} ${outfit.variable}`}>
-      <body>{children}</body>
+      <body className="min-h-screen bg-black flex flex-col">
+        <main className="flex-grow">{children}</main>
+        <Footer />
+      </body>
     </html>
   )
 } 

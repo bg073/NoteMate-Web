@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "set NEXT_IGNORE_TYPECHECK_ERRORS=true && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -26,8 +26,5 @@
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
     "typescript": "^5.3.3"
-  },
-  "scripts": {
-  "build": "NEXT_IGNORE_TYPECHECK_ERRORS=true next build"
-}
+  }
 }
