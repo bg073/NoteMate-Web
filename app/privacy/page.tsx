@@ -1,8 +1,7 @@
 'use client';
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
 import Script from 'next/script';
 
 // This component fetches and displays the privacy policy
@@ -30,7 +29,7 @@ function PrivacyPolicyContent() {
   }, []);
 
   if (loading) {
-    return <div className="text-center py-10">Loading privacy policy...</div>;
+    return <div className="text-center py-10 text-white">Loading privacy policy...</div>;
   }
 
   // Function to format subsection headings
@@ -43,8 +42,17 @@ function PrivacyPolicyContent() {
 
   return (
     <div className="space-y-12">
-      <div className="prose prose-invert max-w-none">
-        <div dangerouslySetInnerHTML={{ __html: policyContent.title.replace(/\n/g, '<br />') }} />
+      <style jsx global>{`
+        .privacy-content {
+          color: #d1d5db; /* text-gray-300 */
+        }
+        .privacy-content br {
+          margin-bottom: 0.5rem;
+        }
+      `}</style>
+      
+      <div className="prose prose-invert max-w-none text-gray-300">
+        <div className="privacy-content" dangerouslySetInnerHTML={{ __html: policyContent.title.replace(/\n/g, '<br />') }} />
       </div>
       
       {policyContent.sections.map((section, index) => (
@@ -59,6 +67,7 @@ function PrivacyPolicyContent() {
           <h2 className="text-2xl font-semibold text-white">{index + 1}. {section.title}</h2>
           <div className="prose prose-invert max-w-none">
             <div 
+              className="privacy-content text-gray-300"
               dangerouslySetInnerHTML={{ 
                 __html: formatContent(section.content)
               }}
@@ -71,8 +80,37 @@ function PrivacyPolicyContent() {
 }
 
 export default function PrivacyPolicy() {
+  // Use motion values for smoother cursor animation
+  const cursorX = useMotionValue(0);
+  const cursorY = useMotionValue(0);
+  
+  // Add spring physics for smoother movement
+  const springConfig = { damping: 25, stiffness: 300 };
+  const cursorXSpring = useSpring(cursorX, springConfig);
+  const cursorYSpring = useSpring(cursorY, springConfig);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      // Update motion values directly
+      cursorX.set(e.clientX - 16);
+      cursorY.set(e.clientY - 16);
+    };
+    
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, [cursorX, cursorY]);
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-gray-200">
+    <div className="relative bg-black min-h-screen overflow-hidden">
+      {/* Custom cursor with optimized animation */}
+      <motion.div
+        className="fixed w-8 h-8 border-2 border-white rounded-full pointer-events-none mix-blend-difference z-50"
+        style={{
+          translateX: cursorXSpring,
+          translateY: cursorYSpring
+        }}
+      />
+
       {/* Schema.org metadata */}
       <Script id="privacy-policy-schema" type="application/ld+json">
         {`

@@ -14,6 +14,7 @@ import {
   ClockIcon
 } from '@heroicons/react/24/outline';
 import FeatureCard from './components/FeatureCard';
+import Link from 'next/link';
 
 const features = [
   {
@@ -173,7 +174,15 @@ function ParticleSystem() {
 }
 
 export default function Home() {
-  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+  // Use motion values for smoother cursor animation
+  const cursorX = useMotionValue(0);
+  const cursorY = useMotionValue(0);
+  
+  // Add spring physics for smoother movement
+  const springConfig = { damping: 25, stiffness: 300 };
+  const cursorXSpring = useSpring(cursorX, springConfig);
+  const cursorYSpring = useSpring(cursorY, springConfig);
+
   const [ref, inView] = useInView({ threshold: 0.1 });
   const { scrollY } = useScroll();
   
@@ -183,19 +192,22 @@ export default function Home() {
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      setCursorPosition({ x: e.clientX, y: e.clientY });
+      // Update motion values directly
+      cursorX.set(e.clientX - 16);
+      cursorY.set(e.clientY - 16);
     };
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  }, [cursorX, cursorY]);
 
   return (
     <div className="relative bg-black min-h-screen overflow-hidden">
-      {/* Custom cursor */}
-      <div
-        className="fixed w-8 h-8 border-2 border-white rounded-full pointer-events-none mix-blend-difference z-50 transition-transform duration-100"
+      {/* Custom cursor with optimized animation */}
+      <motion.div
+        className="fixed w-8 h-8 border-2 border-white rounded-full pointer-events-none mix-blend-difference z-50"
         style={{
-          transform: `translate(${cursorPosition.x - 16}px, ${cursorPosition.y - 16}px)`,
+          translateX: cursorXSpring,
+          translateY: cursorYSpring
         }}
       />
 
@@ -339,15 +351,17 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="group"
                 >
-                  <div className="relative bg-gray-900/50 backdrop-blur-lg rounded-2xl p-6 hover:bg-gray-800/50 transition-all duration-300 border border-emerald-900/20">
-                    <dt className="text-base font-semibold leading-7 text-white">
-                      <div className="absolute left-4 top-6 flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 group-hover:from-teal-500 group-hover:to-cyan-500 transition-colors duration-300">
-                        <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                      </div>
-                      <div className="ml-16">{feature.name}</div>
-                    </dt>
-                    <dd className="mt-2 ml-16 text-base leading-7 text-gray-400">{feature.description}</dd>
-                  </div>
+                  <Link href={`/features/${feature.slug}`}>
+                    <div className="relative bg-gray-900/50 backdrop-blur-lg rounded-2xl p-6 hover:bg-gray-800/50 transition-all duration-300 border border-emerald-900/20 cursor-pointer">
+                      <dt className="text-base font-semibold leading-7 text-white">
+                        <div className="absolute left-4 top-6 flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-emerald-500 to-teal-500 group-hover:from-teal-500 group-hover:to-cyan-500 transition-colors duration-300">
+                          <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        <div className="ml-16">{feature.name}</div>
+                      </dt>
+                      <dd className="mt-2 ml-16 text-base leading-7 text-gray-400">{feature.description}</dd>
+                    </div>
+                  </Link>
                 </motion.div>
               ))}
             </dl>
