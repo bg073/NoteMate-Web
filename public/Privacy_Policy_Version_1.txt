@@ -1,0 +1,234 @@
+BiteTrack Privacy Policy
+
+Effective Date: May 25, 2025 
+
+EarthandCo ("we," "us," "our") is dedicated to safeguarding the privacy and security of users of the BiteTrack mobile application ("BiteTrack," "the App"). This Privacy Policy provides a comprehensive explanation of how we collect, use, store, disclose, and protect your personal and non-personal information when you interact with BiteTrack, a mobile application designed to assist users in tracking caloric intake and nutritional content of food through photographs or barcode scanning. By accessing or using the App, you signify your understanding and agreement to the practices and procedures outlined in this Privacy Policy. If you do not agree with these practices, please refrain from using the App.
+
+  1. Introduction and Scope
+
+This Privacy Policy governs the collection, processing, storage, and sharing of information through BiteTrack, available on iOS and Android platforms worldwide. BiteTrack is developed to empower users to monitor their dietary habits by analyzing food images or barcodes to extract nutritional data, such as calories, macronutrients, and other dietary components. We are committed to transparency in our data practices and compliance with applicable privacy laws, including but not limited to the General Data Protection Regulation (GDPR) in the European Union, the California Consumer Privacy Act (CCPA) in the United States, and other relevant regulations in jurisdictions where the App is available. This policy applies to all users, whether accessing the App as registered users via Google Sign-In or as guests without an account.
+
+Our commitment to privacy extends to ensuring that your data is handled with care, stored securely, and used only for purposes that enhance your experience with BiteTrack. We aim to provide clear, detailed, and accessible information about our data practices to enable informed decision-making by our users. This policy is structured to address the types of data we collect, the purposes for which we use it, how we protect it, and the rights you have regarding your personal information.
+
+  2. Information We Collect
+
+To deliver the functionality of BiteTrack and improve the user experience, we collect various types of information, categorized as follows:
+
+   2.1 Personal Information You Provide
+Personal information is data that can be used to identify you as an individual. When you use BiteTrack, you may voluntarily provide the following personal information:
+-  Health and Dietary Information:  To personalize your calorie and nutrition tracking, you may input details such as your height, weight, age, gender, and specific dietary or fitness goals (e.g., weight loss, muscle gain, or maintaining a balanced diet). These details allow the App to tailor nutritional recommendations and provide insights based on your unique profile.
+-  Account Information:  If you choose to sign in using a Google account for enhanced features (e.g., data syncing across devices), we collect your email address associated with your Google account. Guest users who do not sign in are not required to provide this information.
+-  Contact Information for Support:  If you reach out to us for support or to exercise your data rights, you may provide additional information, such as an email address, to facilitate communication.
+
+We collect only the minimum personal information necessary to provide the App’s core functionality and ensure a personalized experience. You are not obligated to provide this information, but certain features may be unavailable or limited if you choose not to share it.
+
+   2.2 Food and Nutrition Data
+BiteTrack’s primary function is to analyze food items to provide nutritional insights. To achieve this, we collect:
+-  Food Photos:  Images of food you upload to the App, which are processed by our proprietary artificial intelligence (AI) to identify and extract nutritional information, such as calories, proteins, carbohydrates, fats, vitamins, and minerals.
+-  Barcode Data:  Information from barcodes you scan using the App’s barcode scanning feature. The App processes barcode data to retrieve nutritional information from a database of food products.
+-  User-Generated Nutritional Logs:  Records of the foods you track, including timestamps, portion sizes, and nutritional data derived from photos or barcodes. This data is stored to maintain a history of your dietary intake for your reference.
+
+This data is essential for delivering the App’s core functionality and is processed in a manner that prioritizes your privacy, as detailed in later sections.
+
+   2.3 Device and Usage Information
+To optimize the App’s performance, troubleshoot issues, and enhance user experience, we collect technical and usage information, including:
+-  Device Information:  Details such as device identifiers (e.g., unique device ID), IP address, operating system (e.g., iOS or Android version), device model, and network status. This information helps us ensure compatibility and improve technical performance.
+-  Usage Data:  Information about how you interact with the App, such as which features you use (e.g., photo upload, barcode scanning), frequency of use, session duration, and navigation patterns. This data is used to analyze user behavior and improve the App’s design and functionality.
+-  Crash and Performance Data:  Logs of technical issues, such as app crashes or performance errors, to diagnose and resolve problems.
+
+This information is typically anonymized or aggregated to prevent identification of individual users unless necessary for troubleshooting or security purposes.
+
+   2.4 Advertising Data
+BiteTrack integrates Google AdMob to display advertisements within the App. AdMob may collect non-personalized data, such as:
+- Device identifiers (e.g., advertising ID for Android or Identifier for Advertisers (IDFA) for iOS).
+- General usage patterns (e.g., frequency of ad views).
+- Technical data (e.g., device type, operating system) to serve relevant ads.
+
+We configure AdMob to prioritize non-personalized ads where possible, minimizing the use of personal information for advertising purposes. You may control ad personalization through your device settings, as described in Section 5.
+
+   2.5 Information We Do Not Collect
+To clarify, BiteTrack does not collect:
+-  Location Data:  We do not collect or use precise or approximate geolocation data, as it is not required for the App’s functionality.
+-  Sensitive Personal Data:  Beyond the health-related information you voluntarily provide (e.g., height, weight, dietary goals), we do not collect sensitive data such as financial information, biometric data, or government-issued identifiers.
+-  Children’s Data (Intentionally):  The App is not designed for children under 13, and we do not knowingly collect data from such users, as detailed in Section 8.
+
+  3. How We Use Your Information
+
+We use the collected information for the following purposes, all of which are designed to enhance your experience with BiteTrack and ensure its proper operation:
+
+   3.1 Providing Core Functionality
+-  Nutritional Analysis:  We use food photos, barcode data, and user-provided health information (e.g., height, weight, dietary goals) to analyze and display nutritional information, such as calorie counts, macronutrient breakdowns, and dietary recommendations.
+-  Personalization:  Your health and dietary goals are used to tailor the App’s recommendations, such as suggesting portion sizes or tracking progress toward your fitness objectives.
+-  Account Management:  If you sign in with a Google account, your email address is used to manage your account, enable data syncing across devices, and provide continuity of your nutritional logs.
+
+   3.2 Improving the App
+-  Analytics:  Device and usage information is analyzed to understand how users interact with the App, identify popular features, and detect areas for improvement. For example, we may analyze which types of foods are most frequently scanned to enhance our AI’s accuracy.
+-  Technical Optimization:  Crash and performance data help us diagnose issues, improve stability, and ensure compatibility across a wide range of devices and operating systems.
+-  User Feedback Integration:  If you provide feedback or contact us, we use your input to refine the App’s features and address user concerns.
+
+   3.3 Advertising
+-  Ad Delivery:  AdMob uses non-personalized data to serve advertisements within the App. These ads support the App’s free availability by generating revenue.
+-  Ad Performance Analysis:  We may use aggregated data to assess the effectiveness of ads displayed in the App, ensuring they are relevant and non-intrusive.
+
+   3.4 Security and Compliance
+-  Fraud Prevention:  Device and usage information may be used to detect and prevent unauthorized access, fraudulent activities, or misuse of the App.
+-  Legal Compliance:  We may process data to comply with legal obligations, such as responding to lawful requests from authorities or ensuring adherence to privacy regulations.
+
+   3.5 AI Processing
+Our proprietary AI processes food photos and barcode data to extract nutritional information. This processing occurs primarily on your device to minimize data transmission. In cases where server-based processing is required (e.g., for complex image analysis), data is anonymized to prevent association with your identity.
+
+We do not use your information for purposes beyond those described in this policy without your explicit consent, except as required by law.
+
+  4. Data Storage and Security
+
+   4.1 Data Storage
+-  Local Storage:  The majority of your data, including food photos, barcode scans, and nutritional logs, is stored locally on your device. This approach minimizes the need for data transmission and enhances privacy.
+-  Server Storage:  Limited data, such as your Google account email (for signed-in users) and anonymized analytics data, may be stored on secure servers to enable account syncing and App improvements.
+-  Retention Period:  We retain personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. For example, nutritional logs are retained until you delete them or your account. Anonymized data may be retained indefinitely for analytics purposes.
+
+   4.2 Security Measures
+We implement robust, industry-standard security measures to protect your data, including:
+-  Encryption:  Data stored on your device or transmitted to our servers is encrypted using secure protocols (e.g., HTTPS, AES-256 encryption).
+-  Access Controls:  Access to any server-stored data is restricted to authorized personnel with a legitimate need, and we employ strict access controls and authentication mechanisms.
+-  Regular Audits:  We conduct periodic security audits to identify and address vulnerabilities in our systems.
+-  Anonymization:  Where possible, data used for analytics or AI processing is anonymized to prevent identification of individual users.
+
+Despite these measures, no system can be guaranteed to be 100% secure. In the unlikely event of a data breach, we will notify affected users and relevant authorities as required by applicable laws (e.g., GDPR’s 72-hour notification requirement).
+
+   4.3 Data Deletion
+You may delete your data (e.g., nutritional logs, account information) directly within the App or by contacting us at bitetrackapp@gmail.com. Upon deletion, data stored on your device is removed immediately, and server-stored data (if any) is deleted within a reasonable timeframe, typically within 30 days, unless required for legal purposes.
+
+  5. Data Sharing
+
+We prioritize your privacy and limit data sharing to the minimum necessary for the App’s operation. We do not sell, rent, or share your personal information with third parties, except in the following circumstances:
+
+   5.1 Third-Party Service Providers
+-  Google AdMob:  AdMob, a Google service, is used to display advertisements within BiteTrack. AdMob may collect non-personalized data, such as device identifiers (e.g., Android Advertising ID, iOS IDFA), IP address, and usage patterns, to serve ads. AdMob’s data practices are governed by Google’s Privacy Policy, available at [https://policies.google.com/privacy](https://policies.google.com/privacy). We configure AdMob to prioritize non-personalized ads to minimize the use of personal information.
+-  AI Processing:  Our AI technology processes food photos and barcode data to provide nutritional insights. This processing occurs primarily on your device. In cases where server-based processing is required, data is anonymized and transmitted securely to our servers without sharing identifiable information with third parties.
+
+   5.2 Legal and Safety Obligations
+We may disclose your information in the following situations:
+-  Compliance with Law:  If required by law, regulation, or legal process (e.g., court order, subpoena), we may disclose your data to comply with such obligations.
+-  Protection of Rights:  We may share data to protect our rights, property, or safety, or that of our users or the public, such as to prevent fraud, enforce our Terms of Service, or respond to legal claims.
+-  Business Transfers:  In the event of a merger, acquisition, or sale of EarthandCo’s assets, user data may be transferred to the acquiring entity. We will notify you of such changes and ensure continued protection of your data.
+
+   5.3 Anonymized and Aggregated Data
+We may share anonymized or aggregated data (e.g., usage statistics, trends in food tracking) with partners or for research purposes. This data cannot be used to identify you and is used to improve the App or contribute to nutritional research.
+
+  6. Your Choices and Rights
+
+We provide you with control over your data and access to rights under applicable privacy laws. The following options and rights are available:
+
+   6.1 Account and Usage Options
+-  Guest Mode:  You may use BiteTrack without creating an account or providing personal information. Guest mode limits certain features, such as data syncing across devices.
+-  Google Sign-In:  Signing in with a Google account enables additional features, such as cross-device syncing. You may revoke Google’s access to your account at any time via your Google account settings.
+-  Ad Personalization:  You can opt out of personalized ads by adjusting your device settings:
+  - On Android: Go to Settings > Google > Ads > Opt out of Ads Personalization.
+  - On iOS: Go to Settings > Privacy > Advertising > Limit Ad Tracking.
+-  Data Management:  You can view, edit, or delete your nutritional logs and personal information (e.g., height, weight, goals) directly within the App’s settings.
+
+   6.2 Data Rights
+Depending on your jurisdiction, you may have the following rights regarding your personal information:
+-  Access:  Request a copy of the personal information we hold about you.
+-  Correction:  Request correction of inaccurate or incomplete data.
+-  Deletion:  Request deletion of your personal information, subject to legal retention requirements.
+-  Restriction:  Request that we restrict the processing of your data in certain circumstances (e.g., while we verify its accuracy).
+-  Portability:  Request a machine-readable copy of your data for transfer to another service (applicable under GDPR).
+-  Opt-Out of Sale/Sharing:  Under CCPA, you may opt out of the sale or sharing of your personal information. Note that we do not sell your data, but AdMob’s ad serving may be considered “sharing” under CCPA.
+-  Non-Discrimination:  We will not discriminate against you for exercising your privacy rights (e.g., by denying services or charging different prices).
+
+To exercise these rights, contact us at bitetrackapp@gmail.com. We will respond to requests within the timeframes required by law (e.g., 30 days under GDPR, 45 days under CCPA) and may require identity verification to protect your data.
+
+   6.3 Managing Food and Nutrition Data
+You can manage your food photos, barcode scans, and nutritional logs within the App:
+-  Edit Logs:  Modify portion sizes, timestamps, or other details of your tracked foods.
+-  Delete Logs:  Remove individual entries or your entire nutritional history.
+-  Export Data:  If available, export your nutritional logs for personal records (feature availability may vary).
+
+  7. Third-Party Services
+
+BiteTrack integrates the following third-party services, which may collect or process data:
+
+   7.1 Google AdMob
+AdMob serves advertisements within the App. It may collect non-personalized data, such as device identifiers, IP address, and usage patterns, to deliver ads. AdMob operates under Google’s Privacy Policy ([https://policies.google.com/privacy](https://policies.google.com/privacy)). We encourage you to review this policy to understand AdMob’s data practices. You can limit ad tracking as described in Section 6.1.
+
+   7.2 Google Sign-In
+If you sign in with a Google account, Google may collect data (e.g., your email address) to facilitate authentication and account syncing. Google’s data practices are governed by its Privacy Policy. You can manage your Google account settings to control data shared with BiteTrack.
+
+   7.3 No Other Third Parties
+Beyond AdMob and Google Sign-In, we do not use additional third-party services that collect or process user data. Our AI processing is managed internally by EarthandCo and does not involve third-party data sharing.
+
+We are not responsible for the privacy practices of third parties. We recommend reviewing their policies to understand how your data is handled.
+
+  8. Children’s Privacy
+
+BiteTrack is designed for a general audience and is not intended for or directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such data without verifiable parental consent (as required by the Children’s Online Privacy Protection Act (COPPA) in the U.S. or similar laws elsewhere), we will take steps to delete it promptly.
+
+If you are a parent or guardian and believe your child under 13 has provided personal information to BiteTrack, please contact us at bitetrackapp@gmail.com. We will investigate and, if necessary, delete the data in accordance with applicable laws.
+
+  9. International Use and Data Transfers
+
+BiteTrack is available worldwide, and your data may be processed in your country of residence or, in limited cases, on secure servers located in other jurisdictions. We ensure that data processing complies with applicable privacy laws, regardless of where it occurs. For users in the European Economic Area (EEA), United Kingdom, or other regions with strict data protection laws:
+-  GDPR Compliance:  We process data lawfully, fairly, and transparently, relying on your consent or legitimate interests as the legal basis for processing.
+-  Data Transfers:  If data is transferred outside the EEA (e.g., to U.S.-based servers for Google Sign-In or AdMob), we rely on appropriate safeguards, such as Standard Contractual Clauses, to ensure equivalent protection.
+-  Local Laws:  We comply with local privacy regulations, such as CCPA for California residents or LGPD for Brazil.
+
+By using BiteTrack, you consent to the processing and potential transfer of your data as described in this policy.
+
+  10. Changes to This Privacy Policy
+
+We may update this Privacy Policy periodically to reflect changes in our practices, App features, or legal requirements. Significant changes will be communicated to you via:
+- In-App notifications or banners.
+- Email (if you have provided an email address through Google Sign-In).
+- Updates to the policy posted within the App or on our website (if applicable).
+
+The updated policy will take effect upon posting, and your continued use of the App constitutes acceptance of the revised terms. We encourage you to review this policy regularly to stay informed about our data practices. The “Effective Date” at the top of this policy indicates when it was last updated.
+
+  11. Additional Information for Specific Jurisdictions
+
+To ensure compliance with global privacy laws, we provide additional details for users in specific regions:
+
+   11.1 European Union and United Kingdom (GDPR)
+Under GDPR, you have enhanced rights, including:
+-  Right to Be Informed:  This policy provides transparent information about our data practices.
+-  Right to Object:  You may object to certain data processing (e.g., for analytics) by contacting us.
+-  Right to Erasure:  Request deletion of your data, subject to legal exemptions.
+-  Data Protection Officer:  Contact our Data Protection Officer at bitetrackapp@gmail.com for GDPR-related inquiries.
+
+Our legal basis for processing includes your consent (e.g., for Google Sign-In) and legitimate interests (e.g., for analytics and App improvements).
+
+   11.2 California (CCPA)
+For California residents, you have the following CCPA rights:
+-  Right to Know:  Request details about the categories and specific pieces of personal information we collect, use, or share.
+-  Right to Delete:  Request deletion of your data, subject to exceptions.
+-  Right to Opt-Out:  Opt out of data sharing with AdMob via device settings.
+-  Non-Discrimination:  We will not discriminate against you for exercising these rights.
+
+To exercise these rights, contact us at bitetrackapp@gmail.com.
+
+   11.3 Other Jurisdictions
+Users in other regions (e.g., Canada, Australia, Brazil) may have similar rights under local laws. We strive to provide consistent protections globally and will respond to requests in accordance with applicable regulations.
+
+  12. Contact Us
+
+For any questions, concerns, or requests related to your privacy, data rights, or this Privacy Policy, please contact us at:
+-  Email:  bitetrackapp@gmail.com
+-  Address:  EarthandCo, [Your Company Address]
+
+We aim to respond to inquiries within 30 days, or sooner if required by law. To protect your privacy, we may request verification of your identity before processing requests related to your data.
+
+  13. Platform Compliance
+
+BiteTrack complies with the privacy and data protection requirements of the Apple App Store and Google Play Store, including:
+-  Apple App Store:  We provide detailed privacy labels in the App Store, disclosing data collection practices, such as health data, identifiers, and usage data.
+-  Google Play Store:  We adhere to Google’s Data Safety requirements, ensuring transparency about data collection, sharing, and security practices.
+
+  14. Accessibility of This Policy
+
+This Privacy Policy is available within the BiteTrack App and on our website (if applicable). If you require this policy in an alternative format (e.g., for accessibility purposes), please contact us at bitetrackapp@gmail.com, and we will make reasonable efforts to accommodate your needs.
+
+  15. Conclusion
+
+EarthandCo is committed to protecting your privacy and ensuring that your experience with BiteTrack is secure, transparent, and user-focused. We value your trust and strive to maintain the highest standards of data protection. By using BiteTrack, you acknowledge that you have read, understood, and agreed to this Privacy Policy. If you have any concerns or need assistance, please reach out to us at the contact details provided above.
+
+Thank you for choosing BiteTrack to support your dietary and nutritional goals.
